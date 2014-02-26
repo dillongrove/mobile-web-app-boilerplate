@@ -27,7 +27,7 @@ $(document).ready(function(){
         $(e.target).parent().addClass("tab_selected");
 
         var nextPage = $(e.target.hash);
-        transition(nextPage, "fade");
+        transition(nextPage, "crossfade");
     });
 
     /* bind all other panel links */
