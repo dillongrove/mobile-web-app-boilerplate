@@ -73,7 +73,7 @@ a:link {
     li {
         display: inline;
         float: left;
-        width: 20%;
+        width: 100%/$num_tabs;
     }
 
     a {
@@ -105,7 +105,7 @@ a:link {
     }
 
     .tab_selected .icon {
-        background-color: #019bc6;
+        background-color: $tab_bar_icon_active;
     }
 
     li:first-child a {
